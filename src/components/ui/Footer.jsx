@@ -59,7 +59,7 @@ const Footer = () => {
 
       <div className='text-center mt-4'>
         <a
-          href='https://github.com/Adan-Perez?tab=repositories'
+          href='https://github.com/Adan-Perez/CYBERPUNK-WEBSITE-REACT'
           target='_blank'
           rel='noopener noreferrer'
           className='flex items-center justify-center'>

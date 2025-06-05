@@ -21,12 +21,12 @@ const Experience = () => {
         variants={variant2(0.7)}
         initial='hidden'
         whileInView='show'
-        className='flex-1 max-w-xl md:max-w-md w-full mx-auto md:mx-0 md:mt-36 text-center md:text-left'>
-        <div className='p-6 bg-gradient-to-br from-gray-900 to-gray-800 rounded-md shadow-lg'>
-          <h1 className='text-teal-200 text-4xl md:text-6xl font-bold mb-4 tracking-wide leading-tight h1_title'>
+        className='flex-1 max-w-xl md:max-w-md w-full mx-auto md:mx-0 md:mt-36 text-center md:text-left px-4'>
+        <div className='p-4 sm:p-6 bg-gradient-to-br from-gray-900 to-gray-800 rounded-md shadow-lg'>
+          <h1 className='text-teal-200 text-xl sm:text-2xl md:text-3xl lg:text-6xl font-bold mb-4 tracking-wide leading-tight h1_title break-words'>
             {experienceData.title}
           </h1>
-          <p className='text-zinc-400 text-base md:text-lg leading-6'>
+          <p className='text-zinc-400 text-xs sm:text-sm md:text-base lg:text-lg leading-5 sm:leading-6'>
             {experienceData.text}
           </p>
         </div>
